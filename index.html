@@ -3,8 +3,8 @@
     <link rel="icon" type="image/svg+xml" href="/Stem_Next-AI/icon.svg" />
 
     <title>Resize Canvas</title>
-    <script type="module" crossorigin src="/Stem_Next-AI/assets/index-PTEuZZeN.js"></script>
-    <link rel="stylesheet" crossorigin href="/Stem_Next-AI/assets/index-zoYxVWAh.css">
+    <script type="module" crossorigin src="/Stem_Next-AI/assets/index-n7QRs_pW.js"></script>
+    <link rel="stylesheet" crossorigin href="/Stem_Next-AI/assets/index-JZLxdIPo.css">
   </head>
   <body>
 
@@ -20,7 +20,40 @@
 
     </div>
 
-    <div id="popup"></div>
+    <div id="overlay"></div>
+
+    <div id="popups">
+
+      <div class="popup" id="credits-popup">
+
+        <span id="close">X</span>
+
+        <h1>- Credits -</h1>
+
+        <p>Website and AI:<br>Grant Phillips</p>
+
+        <p>Material and Posters:<br>Finn Wylie</p>
+
+        <h2>Vote For Us!</h2>
+        
+
+        <p id="note">Made using <a href="https://www.tensorflow.org/">Tensorflow</a> library 
+          and <a href="https://www.tensorflow.org/datasets/catalog/mnist">mnist</a> database, 
+          hosted using <a href="https://github.com/">GitHub</a> pages.</p>
+  
+      </div>
+  
+      <div class="popup" id="output-popup">
+  
+        <span id="close">X</span>
+  
+        <h1>- AI's Guess -</h1>
+  
+        <p id="guess"></p>
+  
+      </div>
+
+    </div>
 
   </body>
 </html>
